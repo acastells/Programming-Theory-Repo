@@ -9,6 +9,6 @@ public class Cat : Animal //INHERITANCE
         movementSpeed = 4.75f;
         jumpForce = 300f;
         timeBeforeNextJump = 1f;
-        textName = "Catto";
+        textName = StartSceneManager.Instance.catName;
     }
 }

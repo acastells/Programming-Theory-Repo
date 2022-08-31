@@ -9,6 +9,6 @@ public class Dog : Animal // INHERITANCE
         movementSpeed = 4.2f;
         jumpForce = 150f;
         timeBeforeNextJump = 2f;
-        textName = "Doggo";
+        textName = StartSceneManager.Instance.dogName;
     }
 }

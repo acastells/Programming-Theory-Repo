@@ -9,6 +9,6 @@ public class Chicken : Animal //INHERITANCE
         movementSpeed = 4.5f;
         jumpForce = 100f;
         timeBeforeNextJump = 0.5f;
-        textName = "Chicken little";
+        textName = StartSceneManager.Instance.chickenName;
     }
 }
